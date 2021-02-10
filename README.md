@@ -1,2 +1,2 @@
 # Shared_Repo_StackOverflow
-Creating Repository to share the test code on stackoverflow
+New Repository to share the test code on stackoverflow to resolve the issues
