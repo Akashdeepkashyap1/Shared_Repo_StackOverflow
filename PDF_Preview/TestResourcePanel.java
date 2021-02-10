@@ -187,12 +187,13 @@ public class TestResourcePanel extends Panel {
 			// generate the src attribute
 			tag.put("src", Strings.replaceAll(url, "&", "&amp;"));
 			
-			if(pdfFile.isFile()) {
+			/*if(pdfFile.isFile()) {
 				tag.put("src", "file:///" +Strings.replaceAll(pdfFile.getAbsolutePath(), "&", "&amp;"));
-			}
+			}*/
 
-			tag.put("type", "application/pdf");
+			//tag.put("type", "application/pdf");
 			//tag.put("src", "C://Workspace_Related//apache-tomcat-8.5.53_Eclipse//backup//test.pdf");
+			
 			tag.put("target", "_self");
 			
 			System.out.println("iframe tag : " + tag.toString());
